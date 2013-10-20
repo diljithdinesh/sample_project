@@ -1,0 +1,11 @@
+<% @item.each do |i| %>
+  <tr>
+    <td><%= i.title %></td>
+    <td><%= i.price %></td>
+    <td><%= i.quantity %></td>
+    <td><%= link_to 'Show', i %></td><br>
+    <td><%#= link_to 'Edit', edit_stakeholder_path(stakeholder) %></td>
+    <td><%#= link_to 'Destroy', stakeholder, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>

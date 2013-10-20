@@ -1,0 +1,16 @@
+<% provide(:title, @user.name) %>
+<br><br>
+<h1>My Profile</h1>
+<br><br>
+<div class="header" align="right">Current User : <%=current_user.name%></div>
+<div class = "row">
+	<aside class = "span4">
+		<section>
+			<h1>
+			<%= gravatar_for @user %>
+			<%= @user.name %>
+
+			</h1>
+		</section>
+	</aside>
+</div>

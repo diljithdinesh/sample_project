@@ -1,0 +1,21 @@
+<% provide(:title, @user.name) %>
+<br><br>
+<div class="header" align="right">Current User : <%= @user.name %></div>
+<div class = "row">
+	<aside class = "span4">
+		<section>
+			<h1>
+			<%= gravatar_for @user %>
+			<%= @user.name %>			
+			</h1>
+		</section>
+	</aside>
+</div>
+
+<div class = "cart" aligh="right">
+	Go To<%= link_to('Your Cart')%>
+</div>
+
+<div class = "items_list" aligh="right">
+	<%= render 'items/list'%>
+</div>
