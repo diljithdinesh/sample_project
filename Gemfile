@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 #for css and formatting related gem
-gem 'bootstrap-sass', '2.3.2.0'
+#gem 'bootstrap-sass', '2.3.2.0'
 #for encrypting password
 gem 'bcrypt-ruby', '3.0.1'
 #for enabling mass assignment
@@ -10,7 +10,6 @@ gem 'strong_parameters'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 gem 'slim', :require => 'slim'
 
 # Gems used only for assets and not required
